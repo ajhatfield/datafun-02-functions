@@ -1,0 +1,23 @@
+2023-09-01 23:06:53,621.user_easy_stats_alisonhatfield.INFO ==================================================
+2023-09-01 23:06:53,622.user_easy_stats_alisonhatfield.INFO Today is 2023-09-01 at 11:06 PM
+2023-09-01 23:06:53,622.user_easy_stats_alisonhatfield.INFO Running on: posix Darwin 19.6.0
+2023-09-01 23:06:53,622.user_easy_stats_alisonhatfield.INFO Python version:  3.11.4
+2023-09-01 23:06:53,622.user_easy_stats_alisonhatfield.INFO Python path: /Library/Frameworks/Python.framework/Versions/3.11
+2023-09-01 23:06:53,622.user_easy_stats_alisonhatfield.INFO Working dir: /Users/alisonhatfield/Desktop/datafun-02-functions
+2023-09-01 23:06:53,623.user_easy_stats_alisonhatfield.INFO ==================================================
+2023-09-01 23:06:53,636.user_easy_stats_alisonhatfield.INFO  tempature mean   = 59.90
+2023-09-01 23:06:53,636.user_easy_stats_alisonhatfield.INFO tempature median = 60.00
+2023-09-01 23:06:53,636.user_easy_stats_alisonhatfield.INFO tempature mode   = 25.00
+2023-09-01 23:06:53,637.user_easy_stats_alisonhatfield.INFO sales mean   = 68.95
+2023-09-01 23:06:53,637.user_easy_stats_alisonhatfield.INFO sales median = 53.00
+2023-09-01 23:06:53,637.user_easy_stats_alisonhatfield.INFO sales mode   = 10.00
+2023-09-01 23:06:53,638.user_easy_stats_alisonhatfield.INFO var of tempature data    = 1190.99
+2023-09-01 23:06:53,638.user_easy_stats_alisonhatfield.INFO stdev of tempature data   = 34.51
+2023-09-01 23:06:53,638.user_easy_stats_alisonhatfield.INFO lowest of tempature data = 5.00
+2023-09-01 23:06:53,638.user_easy_stats_alisonhatfield.INFO highest of tempature data = 101.00
+2023-09-01 23:06:53,638.user_easy_stats_alisonhatfield.INFO range of tempature data = (5, 101)
+2023-09-01 23:06:53,646.user_easy_stats_alisonhatfield.INFO var of ice cream sales    = 2907.52
+2023-09-01 23:06:53,647.user_easy_stats_alisonhatfield.INFO stdev of ice cream sales  = 53.92
+2023-09-01 23:06:53,647.user_easy_stats_alisonhatfield.INFO lowest of ice cream sales = 10.00
+2023-09-01 23:06:53,647.user_easy_stats_alisonhatfield.INFO highest of ice cream sales = 200.00
+2023-09-01 23:06:53,647.user_easy_stats_alisonhatfield.INFO range of ice cream sales = (10, 200)
