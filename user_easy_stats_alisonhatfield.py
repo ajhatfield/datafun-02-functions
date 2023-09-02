@@ -1,7 +1,9 @@
 """
 Author: Alison Hatfield
 Date: 9/1/2023
+
 Purpose: Illustrate the built-in statistics module.
+Analyze different stats functions for tempatures and ice cream sales
 
 """
 # ----------------- INSTRUCTOR GENERATED CODE -----------------
