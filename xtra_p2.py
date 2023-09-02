@@ -47,9 +47,28 @@ logger, logname = setup_logger(__file__)
 # TODO: Log the result of each function just before you return the result
 
 
+def sum_two(first, second):
+    """Return the sum of any two arguments."""
+    logger.info(f"CALLING sum_two({first},{second})")
+
+    sum = first + second
+
+    logger.info(f"RETURNING {sum}")
+    return sum
 
 
-# TODO: Fix this function to get just the first 3 letters (possibly reversed)
+def sum_rectangle_list(list_rectangle):
+    """Return the sum of four numbers in a list."""
+    logger.info(f"CALLING sum_rectangle_list({list_rectangle})")
+
+    sum = 0
+    for value in list_rectangle:
+        sum = sum + value
+        
+    logger.info(f"RETURNING {sum}")
+    return sum
+
+
 def transform_using_keyword_args_with_default_values(input="bearcat", reverse=False):
     '''Return a string with just the first 3 letters of input string. 
     If reverse is True, reverse the first 3 letters. 
@@ -61,12 +80,33 @@ def transform_using_keyword_args_with_default_values(input="bearcat", reverse=Fa
     s = f"CALLING transform_using_keyword_args_with_default_values(input={input}, reverse={reverse})"
     logger.info(s)
 
-    result = input
+    result = input[:3]
+    if reverse:
+        n = len(input)
+        result = input[2::-1]
 
     logger.info(f"RETURNING {result}")
     return result
 
+def sum_any_using_args(*args):
+    """Return the sum of numbers, using built-in *args."""
+    logger.info(f"CALLING sum_any_using_args({args})")
+    sum = 0
+    for x in args:
+        sum += x  # Use the popular and concise version of sum = sum + x
 
+    logger.info(f"RETURNING {sum}")
+    return sum
+
+def sum_any_with_keyword_arguments_kwargs(**kwargs):
+    """Return the sum of numbers, using built-in keyword args, **kwargs."""
+    logger.info(f"CALLING add_any_with_keywords({kwargs})")
+    sum = 0
+    for value in kwargs.values():  # use values() - name doesn't matter
+        sum += value  # Use the popular and concise version of sum = sum + x
+    
+    logger.info(f"RETURNING {sum}")
+    return sum
 
 if __name__ == "__main__":
 
@@ -74,10 +114,16 @@ if __name__ == "__main__":
     # Call some functions and execute code!
     # Nothing below here needs to change
     # -------------------------------------------------------------
-
+    
+    
+    sum_two(1,2)
+    sum_two("hello", "world")
+    sum_rectangle_list([1,1,3,3]) 
     transform_using_keyword_args_with_default_values()
     transform_using_keyword_args_with_default_values(reverse=True)
     transform_using_keyword_args_with_default_values(input="hello", reverse=True)
+    sum_any_using_args(1,1,1,2)
+    sum_any_with_keyword_arguments_kwargs(a=1,b=2,c=3)
 
     logger.info("===========================================================")
     logger.info("Running doctest.testmod() function to unit test our code")
