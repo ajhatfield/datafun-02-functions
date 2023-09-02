@@ -1,0 +1,22 @@
+2023-09-01 22:21:06,078.user_math_alisonhatfield.INFO ==================================================
+2023-09-01 22:21:06,078.user_math_alisonhatfield.INFO Today is 2023-09-01 at 10:21 PM
+2023-09-01 22:21:06,078.user_math_alisonhatfield.INFO Running on: posix Darwin 19.6.0
+2023-09-01 22:21:06,078.user_math_alisonhatfield.INFO Python version:  3.11.4
+2023-09-01 22:21:06,078.user_math_alisonhatfield.INFO Python path: /Library/Frameworks/Python.framework/Versions/3.11
+2023-09-01 22:21:06,081.user_math_alisonhatfield.INFO Working dir: /Users/alisonhatfield/Desktop/datafun-02-functions
+2023-09-01 22:21:06,085.user_math_alisonhatfield.INFO ==================================================
+2023-09-01 22:21:06,086.user_math_alisonhatfield.INFO CALLING get_area_of_sports_field_area((360, 160))
+2023-09-01 22:21:06,086.user_math_alisonhatfield.INFO The area of the sports field is 57600
+2023-09-01 22:21:06,086.user_math_alisonhatfield.INFO CALLING get_area_of_sports_field_area((360, 225))
+2023-09-01 22:21:06,086.user_math_alisonhatfield.INFO The area of the sports field is 81000
+2023-09-01 22:21:06,086.user_math_alisonhatfield.INFO CALLING get_area_of_sports_field_area((180, 330))
+2023-09-01 22:21:06,086.user_math_alisonhatfield.INFO The area of the sports field is 59400
+2023-09-01 22:21:06,087.user_math_alisonhatfield.INFO CALLING get_area_of_sports_field_area((78, 27))
+2023-09-01 22:21:06,087.user_math_alisonhatfield.INFO The area of the sports field is 2106
+2023-09-01 22:21:06,087.user_math_alisonhatfield.INFO abs difference of soccer and football fields = 23400.0
+2023-09-01 22:21:06,087.user_math_alisonhatfield.INFO sum of all areas computed = 200106.0
+2023-09-01 22:21:06,087.user_math_alisonhatfield.INFO largest field = 81000
+2023-09-01 22:21:06,087.user_math_alisonhatfield.INFO Explore some funtions in the Math module
+2023-09-01 22:21:06,087.user_math_alisonhatfield.INFO math.comb(360,160) = 10712322182701220886687849554054732469106328311161450959986750746406412636701121064751843294444091161844958
+2023-09-01 22:21:06,087.user_math_alisonhatfield.INFO math.ceil(360.3 * 4.7) = 1694
+2023-09-01 22:21:06,087.user_math_alisonhatfield.INFO math.floor(360.3 * 4.7) = 1693
